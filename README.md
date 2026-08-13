@@ -35,3 +35,41 @@ SNAKEGAME/
 └── Sounds/
     ├── eat.mp3
     └── gameover.mp3
+ ```
+## 🚀 Run the Game
+
+### 1. Install Raylib
+
+Using **MSYS2 UCRT64**:
+
+```bash
+pacman -S mingw-w64-ucrt-x86_64-raylib
+ ```
+### 2. Clone the Repository
+
+```bash
+git clone <YOUR-REPOSITORY-URL>
+cd SNAKEGAME
+```
+
+### 3. Compile
+
+```bash
+g++ main.cpp Game.cpp Snake.cpp Food.cpp -o SnakeGame.exe -lraylib -lopengl32 -lgdi32 -lwinmm
+```
+
+### 4. Run
+
+```bash
+./SnakeGame.exe
+```
+## 🎮 Controls
+
+| Key       | Action                  |
+|-----------|-------------------------|
+| ↑ ↓ ← →   | Move Snake              |
+| ENTER     | Restart after Game Over |
+| ESC       | Exit                    |
+ 
+## 👨‍💻 Author
+Sarthak Acharya
