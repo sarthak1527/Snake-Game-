@@ -1,0 +1,22 @@
+# Compiled executable
+SnakeGame.exe
+
+# Object files
+*.o
+*.obj
+
+# Debug files
+*.dSYM/
+*.pdb
+
+# Build folders
+build/
+bin/
+
+# IDE files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
