@@ -73,3 +73,4 @@ g++ main.cpp Game.cpp Snake.cpp Food.cpp -o SnakeGame.exe -lraylib -lopengl32 -l
  
 ## 👨‍💻 Author
 Sarthak Acharya
+Thapathali Campus
